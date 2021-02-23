@@ -1,0 +1,16 @@
+<svg id="icn_timer_line" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" viewBox="0 0 12 12">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Page_1" data-name="Page 1" d="M4.5,10A4.5,4.5,0,1,1,7.406,2.07l.715-.716.354.353-.708.708A4.493,4.493,0,0,1,4.5,10Zm0-8.5a4,4,0,1,0,4,4A4,4,0,0,0,4.5,1.5ZM4.75,6h-.5V3h.5V6ZM6,.5H3V0H6V.5Z" transform="translate(0 0)" fill="#2e3134"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_Time_icn_timer_line" data-name="Icon / Time / icn_timer_line">
+    <rect id="Rectangle_1_Copy_147" data-name="Rectangle 1 Copy 147" width="12" height="12" fill="none"/>
+    <path id="Page_1-2" data-name="Page 1" d="M4.5,10A4.5,4.5,0,1,1,7.406,2.07l.715-.716.354.353-.708.708A4.493,4.493,0,0,1,4.5,10Zm0-8.5a4,4,0,1,0,4,4A4,4,0,0,0,4.5,1.5ZM4.75,6h-.5V3h.5V6ZM6,.5H3V0H6V.5Z" transform="translate(1.5 1)" fill="#2e3134"/>
+    <g id="Icon_Time_icn_timer_line-2" data-name="Icon / Time / icn_timer_line" transform="translate(1.5 1)" clip-path="url(#clip-path)">
+      <g id="Select_Color" data-name="Select Color" transform="translate(-1.5 -1)">
+        <rect id="Rectangle_4" data-name="Rectangle 4" width="12" height="12" fill="#2e3134"/>
+      </g>
+    </g>
+  </g>
+</svg>

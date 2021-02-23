@@ -1,0 +1,16 @@
+<svg id="icn_playlist_copy_3" data-name="icn_playlist copy 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Page_1" data-name="Page 1" d="M15,13V7l5,3-5,3Zm1-4.234v2.467L18.057,10,16,8.766ZM13,9H0V8H13V9Zm4-4H0V4H17V5Zm0-4H0V0H17V1Z" transform="translate(2 6)" fill="#231f20"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_Video_icn_playlist" data-name="Icon / Video / icn_playlist">
+    <rect id="Rectangle_1_Copy_265" data-name="Rectangle 1 Copy 265" width="24" height="24" fill="none"/>
+    <path id="Page_1-2" data-name="Page 1" d="M15,13V7l5,3-5,3Zm1-4.234v2.467L18.057,10,16,8.766ZM13,9H0V8H13V9Zm4-4H0V4H17V5Zm0-4H0V0H17V1Z" transform="translate(2 6)" fill="#231f20"/>
+    <g id="Icon_Video_icn_playlist-2" data-name="Icon / Video / icn_playlist" clip-path="url(#clip-path)">
+      <g id="Select_Color" data-name="Select Color">
+        <rect id="Rectangle_4" data-name="Rectangle 4" width="24" height="24" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

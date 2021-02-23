@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import './assets/fonts/OpenSans-Regular.ttf'; 
+// import 'assets/fonts/OpenSans-Bold.ttf'; 
+
+
+import data from './assets/mockData.js';
+import Featured from './components/Featured';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">   
+      <Featured data={data} />
     </div>
   );
 }
 
 export default App;
+
+
+/*
+    type: 'series',
+    title: 'Performance Series',
+    duration: '',
+    distance: '',
+    photo: 'performance-series-thumb.jpg',
+    avatar: 'performance-series-trainer.jpg'
+*/
