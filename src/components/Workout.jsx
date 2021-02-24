@@ -18,14 +18,16 @@ const Workout = ({ workout }) => {
       onClick={handleClick}
     >
       <div className='box-top'>
-        <span className='overlay'>
-          <div className='overlay-text'>
-            <h1>{quantity}</h1>
-            <span>WORKOUTS</span>
-            <img className='icon-playlist' src={icon_playlist} alt='playlist icon'></img>
-
+        {type === 'series' ? 
+          <div className='overlay'>
+            <div className='overlay-text'>
+              <h1>{quantity}</h1>
+              <span>WORKOUTS</span>
+              <img className='icon-playlist' src={icon_playlist} alt='playlist icon'></img>
+            </div>
           </div>
-        </span>
+          : null 
+        }
         <img className='pic' src={`assets/images/${photo}`} alt='{title}' />
       </div>
     
@@ -33,7 +35,6 @@ const Workout = ({ workout }) => {
         <div className='box-bottom-mid'>
           <div className='box-bottom-inner'>
             <div className='box-bottom-left'>
-
               <h1 className='title'>{title}</h1>
               {type !== 'series' ?
                 <div>
@@ -45,7 +46,6 @@ const Workout = ({ workout }) => {
                 : null
               }
               {isSelected ? <div className='view-details-link'>VIEW DETAILS</div> : null}
-
             </div>
             <div className='right'>
               <img className='avatar' src={`assets/images/${avatar}`} alt='instructor avatar' /> 

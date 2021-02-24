@@ -15,7 +15,7 @@ const data = [
     distance: '',
     photo: 'performance-series-thumb.jpg',
     avatar: 'performance-series-trainer.jpg',
-    workouts: 9
+    quantity: 9
   },
   { 
     type: 'workout',
