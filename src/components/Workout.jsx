@@ -30,9 +30,9 @@ const Workout = ({ workout }) => {
       </div>
     
       <div className='box-bottom'>
-        <div className='mid-bottom'>
-          <div className='inner-bottom'>
-            <div className='left'>
+        <div className='box-bottom-mid'>
+          <div className='box-bottom-inner'>
+            <div className='box-bottom-left'>
 
               <h1 className='title'>{title}</h1>
               {type !== 'series' ?
@@ -44,11 +44,11 @@ const Workout = ({ workout }) => {
                 </div> 
                 : null
               }
-              {isSelected ? <div className='view-details'>VIEW DETAILS</div> : null}
+              {isSelected ? <div className='view-details-link'>VIEW DETAILS</div> : null}
 
             </div>
             <div className='right'>
-              <img className='avatar' src={`assets/images/${avatar}`} alt='instructor' /> 
+              <img className='avatar' src={`assets/images/${avatar}`} alt='instructor avatar' /> 
             </div>
           </div>
         </div>

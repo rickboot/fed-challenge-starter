@@ -1,26 +1,6 @@
-/* @font-face {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  src: local('Open Sans Regular'), url('assets/fonts/OpenSans-Regular.ttf') format('tiff');
-} */
-
 .App {
   box-sizing: border-box; 
 }
-
-/* .container {
-  width: 1400px;
-  height: 860px;
-  
-  border-bottom: .5px solid rgb(180, 180, 180);
-  border-right: .5px solid rgb(92, 6, 6);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  background-color: blue;
-} */
 
 .row {
   padding: 40px;
@@ -59,11 +39,10 @@
   width: 112px;
   height: 100%;
 
-  right: 0;
   position: absolute;
+  right: 0;
   z-index: 1;
   
-  color: white;
   background-color: rgba(0, 12, 40, 0.55);
 }
 
@@ -74,15 +53,12 @@
   top: 50%;
   left: 50%; 
   transform: translate(-50%, -50%);
-
+  
   display: block;
-
+  
+  color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-}
-
-.overlay-text span {
-  display: block;
 }
 
 .overlay-text h1 {
@@ -90,6 +66,10 @@
   font-weight: 300;
   display: block;
   margin: 0;
+}
+
+.overlay-text span {
+  display: block;
 }
 
 .box-top img {
@@ -101,6 +81,26 @@
   position: relative;
 }
 
+.box-bottom span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.box-bottom-mid {
+  padding: 15px 15px 15px 15px;
+  position: relative;
+}
+
+.box-bottom-inner {
+  position: relative;
+}
+
+.box-bottom-left {
+  width: 80%;
+  height: 86px;
+  position: relative;
+}
+
 .avatar {
   width: 28px;
   border-radius: 2px;
@@ -109,35 +109,10 @@
   right: 0px;
 }
 
-.box-bottom span {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-}
-
-.mid-bottom {
-  padding: 15px 15px 15px 15px;
-  position: relative;
-}
-
-.inner-bottom {
-  position: relative;
-}
-
-.left {
-  width: 80%;
-  height: 86px;
-  position: relative;
-}
-
 #tiny-text {
   font-size: 10px;
   margin-left: 4px;
   margin-right: 8px;
-}
-
-.icon-playlist {
-  height: 24px;
-  margin-top: 12px;
 }
 
 .icon {
@@ -145,6 +120,12 @@
   position: relative;
   top: 2px;
 }
+
+.icon-playlist {
+  height: 24px;
+  margin-top: 12px;
+}
+
 
 .title {
   font-size: 16px;
@@ -154,14 +135,12 @@
   padding: 0;
 }
 
-.view-details {
+.view-details-link {
   font-size: 14px !important;
   color: #0069D2;
   position: absolute;
   bottom: 0;
 }
-
-
 
 @media screen and ( min-width: 1500px ) {
   .row {

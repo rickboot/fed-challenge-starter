@@ -1,14 +1,12 @@
 import React from 'react';
-import Workout from '../components/Workout';
+import Workout from './Workout';
 
-const Featured = ({ data }) => {
+const FeaturedWorkouts = ({ data }) => {
   return (
-    <div className=''>
       <div className='row'>
         {data.map(item => <Workout workout={item} key={item.title} />)}  
       </div>
-    </div>
   )
 }
 
-export default Featured;
+export default FeaturedWorkouts;

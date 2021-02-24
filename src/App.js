@@ -1,29 +1,15 @@
 import React from 'react';
-import './App.css';
-
-import './assets/fonts/OpenSans-Regular.ttf'; 
-// import 'assets/fonts/OpenSans-Bold.ttf'; 
-
-
+import FeaturedWorkouts from './components/FeaturedWorkouts';
 import data from './assets/mockData.js';
-import Featured from './components/Featured';
+import './App.css';
+import './assets/fonts/OpenSans-Regular.ttf'; 
 
 function App() {
   return (
     <div className="App">   
-      <Featured data={data} />
+      <FeaturedWorkouts data={data} />
     </div>
   );
 }
 
 export default App;
-
-
-/*
-    type: 'series',
-    title: 'Performance Series',
-    duration: '',
-    distance: '',
-    photo: 'performance-series-thumb.jpg',
-    avatar: 'performance-series-trainer.jpg'
-*/
