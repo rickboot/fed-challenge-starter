@@ -1,5 +1,7 @@
 # Single page product feature section built with React with Hooks
 
+Hosted live on Heroku at: https://stormy-thicket-72477.herokuapp.com/
+
 ![Screenshot](/src/assets/images/screenshot.png)
 
 This is a single page product feature section based on provided designs and assets. 
